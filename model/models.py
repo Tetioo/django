@@ -7,3 +7,5 @@ class Students(models.Model):
     dob = models.DateField()
     age = models.IntegerField()
 
+# class Meta:
+# db_table = 'students'
