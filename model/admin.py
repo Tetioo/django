@@ -10,7 +10,3 @@ admin.site.register(Teachers)
 admin.site.register(parents)
 admin.site.register(post)
 
-# title
-# description
-# author
-# createdat

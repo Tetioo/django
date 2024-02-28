@@ -31,7 +31,7 @@ class post(models.Model):
     title = models.CharField(max_length=20)
     description = models.CharField(max_length=220)
     author = models.CharField(max_length=30)
-    CreatedAt = models.TimeField()
+    CreatedAt = models.DateTimeField()
 
     def __str__(self):
         return self.title
