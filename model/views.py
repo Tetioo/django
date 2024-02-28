@@ -4,4 +4,4 @@ from model.form import StudentsForm
 
 def index(request):
     stud=StudentsForm
-    return render(request, 'index.html', {'form:stud'})
+    return render(request, 'index.html', {'form':stud})
